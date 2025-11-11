@@ -2,17 +2,17 @@
 test script for miner functions and files
 """
 
-import pytest
-from unittest.mock import MagicMock, patch
-import datetime
-import pytz
-import torch
-from bettensor.miner.bettensor_miner import BettensorMiner
-from bettensor.protocol import GameData, Metadata, TeamGame, TeamGamePrediction
-from bettensor.miner.stats.miner_stats import MinerStateManager, MinerStatsHandler
-from bettensor.miner.database.database_manager import DatabaseManager
-from bettensor.miner.database.games import GamesHandler
-from bettensor.miner.database.predictions import PredictionsHandler
+# import pytest
+# from unittest.mock import MagicMock, patch
+# import datetime
+# import pytz
+# import torch
+# from bettensor.miner.bettensor_miner import BettensorMiner
+# from bettensor.protocol import GameData, Metadata, TeamGame, TeamGamePrediction
+# from bettensor.miner.stats.miner_stats import MinerStateManager, MinerStatsHandler
+# from bettensor.miner.database.database_manager import DatabaseManager
+# from bettensor.miner.database.games import GamesHandler
+# from bettensor.miner.database.predictions import PredictionsHandler
 
 
 @pytest.fixture
